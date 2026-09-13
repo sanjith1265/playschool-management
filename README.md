@@ -280,13 +280,6 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env` file:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-```
-
 Start the backend:
 
 ```bash
@@ -359,12 +352,6 @@ node_modules/
 ```
 
 The MongoDB connection string should be stored in environment variables instead of directly inside the source code.
-
-Example:
-
-```env
-MONGO_URI=your_private_connection_string
-```
 
 ## Future Enhancements
 
